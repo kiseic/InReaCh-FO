@@ -179,7 +179,7 @@ python main.py --name full_experiment --device cpu
 
 ## ライセンス
 
-このプロジェクトはMITライセンスの下で提供されています。LICENSEファイルを参照してください。
+このプロジェクトはApache 2.0ライセンスの下で提供されています。LICENSEファイルを参照してください。
 
 ## 謝辞
 
