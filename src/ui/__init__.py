@@ -1,0 +1,1 @@
+"""UI module for Adaptive Vision-Based Anomaly Detection."""

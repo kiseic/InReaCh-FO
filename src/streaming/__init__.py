@@ -1,0 +1,1 @@
+"""Streaming adapter components for video input processing."""

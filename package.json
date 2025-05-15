@@ -1,0 +1,20 @@
+{
+  "name": "adaptive-qa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "fastapi run",
+    "dev": "fastapi run --reload",
+    "lint": "ruff check .",
+    "typecheck": "pyright",
+    "build:docker": "docker build -t qa:mps -f docker/Dockerfile --build-arg BACKEND=mps ."
+  },
+  "keywords": ["anomaly-detection", "computer-vision", "machine-learning", "edge-computing"],
+  "author": "",
+  "license": "ISC",
+  "description": "Adaptive Vision-Based Anomaly Detection System that learns while the line runs",
+  "volta": {
+    "node": "20.19.1"
+  }
+}
